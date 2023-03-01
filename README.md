@@ -1,2 +1,2 @@
 # HUMOR
-HUMOR: Human friendy retrieval Model analyzers fOr information Retrieval models
+HUMOR: Human friendy retrieval Model analyzer fOr information Retrieval models
