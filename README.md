@@ -75,4 +75,4 @@ bert_condition = condition(condition_name= "bert", start= 1, end= 10, relevant= 
 
 
 ## About HumoR
-Humor has been implemented as a simple and straightforward tool for a homework in the Information Retrieval course at Leiden University taught by Suzan Verberne. Our goal is to provide an easy way to show the differences within the ranked list of different IR models. We use the Pytrec_eval library for loading the qrles and ranking run files.
+HumoR has been implemented as a simple and straightforward tool for a homework in the Information Retrieval course at Leiden University taught by Suzan Verberne. Our goal is to provide an easy way to show the differences within the ranked list of different IR models. We use the Pytrec_eval library for loading the qrles and ranking run files.
