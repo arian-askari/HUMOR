@@ -29,6 +29,8 @@ conditions = [bm25_condition, bert_condition] # each condition is for one ranker
 analyzer_report = analyzer.find(conditions)
 ```
 
+### Retrieving Relevant Document Content and Ranking Information
+
 Once the relevant documents have been identified, you can retrieve their content and ranking information:
 
 ```
@@ -69,6 +71,7 @@ Find a query where a relevant document is ranked at position 501-1000 by BM25 bu
 bm25_condition = condition(condition_name= "bm25", start= 500, end= 100, relevant= True, ranking_path= "bm25.run")
 bert_condition = condition(condition_name= "bert", start= 1, end= 10, relevant= True, ranking_path= "bert.run")
 ```
+
 
 
 ## About Humor
