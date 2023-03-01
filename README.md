@@ -1,5 +1,6 @@
 # HumoR
 (WORK IN PROGRESS)
+
 HumoR: **Hum**an friendy analyzer for inf**o**rmation **R**etrieval models
 
 Humor is a tool designed to help users compare different Information Retrieval models and understand their differences.
