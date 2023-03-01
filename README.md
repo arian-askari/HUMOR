@@ -1,5 +1,5 @@
 # HUMOR
-HUMOR: **Hu**man friendy **M**odel analyzer f**O**r information **R**etrieval models
+HUMOR: **Hum**an friendy analyzer f**O**r information **R**etrieval models
 
 Humor is a tool designed to help users compare different Information Retrieval models and understand their differences.
 
