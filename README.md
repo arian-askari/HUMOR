@@ -23,8 +23,8 @@ import humor
 from humor import condition
 analyzer = humor(qrels_path = "dev.qrels")
 
-bm25_condition = condition(condition_name = "bm25", start= 1, end= 500, relevant= True, ranking_path= "bm25.run")
-bert_condition = condition(condition_name = "bert", start= 1, end= 10, relevant= True, ranking_path= "bert.run")
+bm25_condition = condition(condition_name= "bm25", start= 1, end= 500, relevant= True, ranking_path= "bm25.run")
+bert_condition = condition(condition_name= "bert", start= 1, end= 10, relevant= True, ranking_path= "bert.run")
 conditions = [bm25_condition, bert_condition] # each condition is for one ranker.
 analyzer_report = analyzer.find(conditions)
 ```
@@ -55,8 +55,8 @@ Find a query where a relevant document is ranked at position  1-10 by BM25 but i
 
 This example is similar to the previous one, but the conditions are different:
 ```
-bm25_condition = condition(condition_name= "bm25", start = 1, end= 10, relevant= True, ranking_path= "bm25.run")
-bert_condition = condition(condition_name= "bert", start = **11**, end= **100**, relevant= True, ranking_path= "bert.run")
+bm25_condition = condition(condition_name= "bm25", start= 1, end= 10, relevant= True, ranking_path= "bm25.run")
+bert_condition = condition(condition_name= "bert", start= 11, end= 100, relevant= True, ranking_path= "bert.run")
 ```
 
 
@@ -66,8 +66,8 @@ bert_condition = condition(condition_name= "bert", start = **11**, end= **100**,
 Find a query where a relevant document is ranked at position 501-1000 by BM25 but is ranked 1-10 by BERT.
 
 ```
-bm25_condition = condition(condition_name= "bm25", start = 500, end= 100, relevant= True, ranking_path= "bm25.run")
-bert_condition = condition(condition_name= "bert", start = 1, end= 10, relevant= True, ranking_path= "bert.run")
+bm25_condition = condition(condition_name= "bm25", start= 500, end= 100, relevant= True, ranking_path= "bm25.run")
+bert_condition = condition(condition_name= "bert", start= 1, end= 10, relevant= True, ranking_path= "bert.run")
 ```
 
 
