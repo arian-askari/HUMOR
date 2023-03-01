@@ -13,7 +13,6 @@ pip install humor_ir
 
 ## Usage
 Below are some examples of how to use Humor to compare the effectiveness of different retrieval models. Each example is focused on a specific goal, such as demonstrating the superiority of one model over another or illustrating the importance of re-ranking depth.
-<hr>
 
 ### Demonstrating the superiority of BERT over BM25: 
 Find a query where a relevant document is ranked at position 11-500 by BM25 but is ranked 1-10 by BERT.
@@ -50,7 +49,6 @@ Or, if you want to view the content of the document ranked at 1 by BERT:
 document_at_rank1_by_bert_content = analyzer_report.get_document_by(condition_name= "bert", rank= 1)
 ```
 
-<hr>
 
 ### Demonstrating the superiority of BM25 over BERT: 
 Find a query where a relevant document is ranked at position  1-10 by BM25 but is ranked 11-1000 by BERT.
@@ -62,7 +60,6 @@ bert_condition = condition(condition_name= "bert", start = **11**, end= **100**,
 ```
 
 
-<hr>
 
 ### Illustrating the importance of re-ranking depth: 
 
