@@ -1,5 +1,4 @@
 # HumoR
-(WORK IN PROGRESS)
 
 HumoR: **Hum**an friendy analyzer for inf**o**rmation **R**etrieval models
 
